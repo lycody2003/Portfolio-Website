@@ -52,13 +52,10 @@ function showProjects(projects) {
         <div class="tag">
         <h3>${project.name}</h3>
         </div>
-        <div class="desc">
-          <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
+        <div class="desc" style="height: 150px; overflow: auto;">
+            <p>${project.desc}</p>
         </div>
+
       </div>
     </div>
     </div>`
